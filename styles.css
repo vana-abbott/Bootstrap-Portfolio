@@ -81,7 +81,6 @@ img {
 }
 
 footer {
-    position: fixed;
     width:100%;
     bottom: 0;
     background-color: ivory; 
@@ -100,6 +99,7 @@ input[type=text], select, textarea {
         margin-top: 6px; 
         margin-bottom: 16px; 
         resize: vertical;
+        position: absolute; 
     }
     
     
